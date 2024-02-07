@@ -1,0 +1,1032 @@
+h1, h2, h3,h4, p, a, button{
+    font-family: "Century Gothic", sans-serif;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: #0072b9;
+}
+.headerindex{
+    background-image: url(../Media/Coventina\ Rio\ Backer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60rem;
+}
+/* @media only screen and (min-width: 600px) {
+    .headerindex{
+        background-image: url(../Media/circle-water.png);
+    }
+} */
+.headerindex__div{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.headerindex__div-siguenos{
+    background-color: #0072b9;
+    display: flex;
+    color: white;
+    width: 13.67rem;
+    height: 3rem;
+    padding-left: 3rem;
+    clip-path: polygon(0 0, 100% 0, 89% 100%, 0% 100%);
+}
+.headerindex__div-siguenos i{
+    margin-top: 1rem;
+    display: flex;
+    margin-left: 1rem;
+}
+.headerindex__div-siguenos a{
+    color: white;
+}
+.headerindex__div-siguenos i:hover{
+    color: rgb(70, 255, 246);
+    cursor: pointer;
+}
+.headerindex__div-login{
+    margin-right: 3rem;
+    margin-top: 1px;
+}
+.headerindex__div-login a{
+    color: white;
+    background-color: #0072b9;
+    padding: 10px 20px 10px 20px;
+    border-radius: 1rem;
+}
+.headerindex__div-login a:hover{
+    background-color:#0a5786;
+    transition: 0.2s;
+}
+.headerindex__div-login i{
+    margin-left: 3rem;
+    color: white;
+    background-color: #0072b9;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.headerindex__logo{
+    /* background-color: red; */
+    border: 5px solid #0072b9;
+    border-radius: 3rem;
+    margin-top: 5rem;
+    width: 90rem;
+    margin-left: 15rem;
+
+}
+.headerindex__logo img{
+    width: 90rem;
+}
+
+.aguafavoritaindex{
+    background-image: url(../Media/fondo-agua.jpeg);
+    z-index: -1;
+    position: absolute;
+    width: 90rem;
+    height: 90rem;
+}
+/*******************COVENTINADIOSA*******************//*******************COVENTINADIOSA*******************/
+/*******************COVENTINADIOSA*******************//*******************COVENTINADIOSA*******************/
+/*******************COVENTINADIOSA*******************//*******************COVENTINADIOSA*******************/
+.coventinadiosa{
+    display: flex;
+    justify-content: center;
+    /* width: 65rem; */
+}
+.coventinadiosa h2{
+    font-size: 2.7rem;
+}
+.coventinadiosa span{
+    color: #0072b9;
+    font-size: 2.8.9rem;
+    font-weight: bold;
+}
+.coventinadiosa :not(span){
+    color: #0072b9;
+    font-weight: 1;
+}
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+.purificadaindex{
+    background-image: url(../Media/fondo-agua.jpeg);
+    height: 50rem;
+    width: 100%;
+    
+}
+.purificadaindex svg{
+    margin-top: -5.7rem;
+    height: 26.43rem;
+}
+.purificadaindex h2{
+    margin-top: 28rem;
+    margin-left: 20rem;
+    position: absolute;
+    font-size: 3.6rem;
+    color: #052caa;
+    text-align: center;
+}
+.purificadaindex img{
+    margin-left: 57rem;
+    margin-top: 21rem;
+    width: 35rem;
+}
+/*******************AGUAPURIFICADAINDEX*******************//*******************AGUAPURIFICADAINDEX*******************/
+/*******************AGUAPURIFICADAINDEX*******************//*******************AGUAPURIFICADAINDEX*******************/
+/*******************AGUAPURIFICADAINDEX*******************//*******************AGUAPURIFICADAINDEX*******************/
+.aguapurificadaindex{
+    /* background-color: #39a2cf; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 5rem;
+    margin-top: 33rem;
+    margin-left: 15rem;
+}
+.aguapurificadaindex__img{
+    /* background-color: greenyellow; */
+    margin-left: 27rem;
+}
+.aguapurificadaindex__img-1{
+    width: 24rem;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 1.5rem;
+}
+.aguapurificadaindex__img-2{
+    width: 25rem;
+}
+.aguapurificadaindex__img-p1{
+    background-color: #0072b9;
+    position: absolute;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 50%;
+    text-align: center;
+    text-align: center;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+.aguapurificadaindex__img-p2{
+    background-color: #0072b9;
+    position: absolute;
+    margin-left: 15rem;
+    margin-top: -10rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 50%;
+    text-align: center;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    font-size: 15px;
+}
+.aguapurificadaindex__img-p1 p{
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+}
+.aguapurificadaindex__img-p2 p{
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+}
+.aguapurificadaindex__derecha{
+    /* background-color: red; */
+    color: #0072b9;
+}
+.aguapurificadaindex__derecha h3{
+    /* background-color: #b6e3f6; */
+    font-weight: bold;
+}
+.aguapurificadaindex__sed{
+    /* background-color: gold; */
+    margin-left: 59.5rem;
+    margin-top: 15rem;
+    position: absolute;
+    color: #0072b9;
+} 
+.aguapurificadaindex__sed h3{
+    /* background-color: #b6e3f6; */
+    font-weight: bold;
+}
+.aguapurificadaindex__sed-enlace{
+    background-color: #0072b9;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+}
+.aguapurificadaindex__sed-enlace a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.aguapurificadaindex__sed-enlace:hover{
+    background-color:#0a5786;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+/*******************CARUSELINDEX*******************//*******************CARUSELINDEX*******************/
+/*******************CARUSELINDEX*******************//*******************CARUSELINDEX*******************/
+/*******************CARUSELINDEX*******************//*******************CARUSELINDEX*******************/
+.carouselindex{
+    margin-top: 13rem;
+}
+.carouselindex__productos-item{
+    border: 1px solid #0072b9;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 2rem;
+}
+.carouselindex img{
+    width: 17rem;
+}
+.carouselindex h3{
+    color: #0072b9;
+    margin-top: -2rem;
+    font-size: 25px;
+}
+.carouselindex p{
+    color: red;
+    font-weight: bold;
+    margin-top: -1rem;
+    font-size: 25px;
+}
+
+.carouselindex__añadir a{
+    color: white;
+    background-color: #0072b9;
+    padding: 10px 20px 10px 20px;
+    border-radius: 3rem;
+}
+.carouselindex__anterior{
+    position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	/* top: calc(50% - 35px); */
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	/* background: none; */
+	color: #fff;
+	/* opacity: 20%; */
+    background-color: red;
+    /* margin-left: 98%; */
+    top: 264rem;
+    left: 1rem;
+}
+.carouselindex__siguiente{
+    position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	/* top: calc(50% - 35px); */
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	/* background: none; */
+	color: #fff;
+	/* opacity: 20%; */
+    background-color: red;
+    margin-left: 98%;
+    margin-top: -14rem;
+}
+
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+.purificadaindex{
+    background-image: url(../Media/fondo-agua.jpeg);
+    height: 50rem;
+    width: 100%;
+    
+}
+.purificadaindex svg{
+    margin-top: -5.7rem;
+    height: 26.43rem;
+}
+.purificadaindex h2{
+    margin-top: 28rem;
+    margin-left: 20rem;
+    position: absolute;
+    font-size: 3.6rem;
+    color: #052caa;
+    text-align: center;
+}
+.purificadaindex img{
+    margin-left: 57rem;
+    margin-top: 21rem;
+    width: 35rem;
+}
+/*******************notequedesagua*******************//*******************notequedesagua*******************/
+/*******************notequedesagua*******************//*******************notequedesagua*******************/
+/*******************notequedesagua*******************//*******************notequedesagua*******************/
+.notequedesagua{
+    background-image: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(186,186,186,0) 38%, rgba(0,212,255,0) 100%), url(https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 30rem;
+    margin-top: 7rem;
+}
+.notequedesagua__h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 6.4rem;
+    font-size: 3rem;
+
+}
+
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+.planesindex__titulo{
+    color: #0072b9;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    font-size: 2.5rem;
+}
+.planesindex__grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 3rem;
+    margin-left: 22rem;
+    gap: 5rem 0rem;
+    margin-bottom: 5rem;
+}
+.planesindex__grid-item{
+    /* background-color: red; */
+    border: 1px solid #0072b9;
+    width: 30rem;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    /* background-color: red; */
+}
+.planesindex__grid-item img{
+    width: 13rem;
+}
+.planesindex__grid-plan{
+    background-color: #0072b9;
+    text-align: center;
+    margin-top: -14.3rem;
+    margin-left: 23.9rem;
+    width: 6rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    clip-path: polygon(20% 0, 100% 0%, 100% 100%, 20% 100%, 0% 50%);
+}
+.planesindex__grid-plan span{
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+}
+.planesindex__grid-info-unidad{
+    /* background-color: aqua; */
+    margin-left: 12rem;
+    margin-top: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+    color:#0072b9;
+    font-weight: bold;
+}
+.planesindex__grid-info-titulo{
+    /* background-color: aqua; */
+    margin-left: 17rem;
+    margin-top: -7rem;
+    font-size: 1.5rem;
+    width: 11rem;
+    color:#0072b9;
+
+}
+.planesindex__grid-info-precio{
+    /* background-color: aqua; */
+    margin-left: 17rem;
+    margin-top: 0rem;
+    width: 4.3rem;
+    font-size: 1.5rem;
+    color: red;
+    font-weight: bold;
+}
+.planesindex__grid-info-añadir{
+    margin-left: 17rem;
+    margin-top: 0rem;
+    width: 14rem;
+    font-size: 1.5rem;
+}
+.planesindex__grid-info-añadir a{
+    color: white;
+    background-color: #0072b9;
+    padding: 3px 5px 3px 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+/*******************WEBPAYDIV*******************//*******************WEBPAYDIV*******************/
+/*******************WEBPAYDIV*******************//*******************WEBPAYDIV*******************/
+/*******************WEBPAYDIV*******************//*******************WEBPAYDIV*******************/
+.webpaydiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #b6e3f6;
+    text-align: center;
+    /* margin-left: 30rem; */
+    padding: 2rem 10rem 2rem 10rem;
+    gap: 5rem;
+    /* margin-left: 6rem; */
+}
+.webpaydiv__texto{
+    color: #0072b9;
+    text-align: left;
+    margin-left: 5rem;
+}
+.webpaydiv__logo{
+    border-right: 3px dashed white;
+    /* background-color: green; */
+    width: 50rem;
+}
+
+/*******************FOOTER*******************//*******************FOOTER*******************/
+/*******************FOOTER*******************//*******************FOOTER*******************/
+/*******************FOOTER*******************//*******************FOOTER*******************/
+.divfooter{
+    display: flex;
+    justify-content: space-between;
+}
+.divfooter__logo{
+    margin-left: 45rem;
+}
+.divfooter img{
+    width: 30rem;
+}
+.divfooter__siguenos{
+    display: flex;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    color: white;
+}
+.divfooter__siguenos i{
+    /* margin-right: 3rem; */
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    width: 2rem;
+}
+.footergrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 5rem;
+    margin-left: 15rem;
+}
+.footergrid__pedidos{
+    background-color: #b6e3f6;
+    width: 15rem;
+    height: 9rem;
+    text-align: center;
+    margin-left: 5rem;
+    padding: 1px 10px 1px 10px;
+    border-radius: 30px;
+    color: #0072b9;
+    margin-top: 2rem;
+}
+.footergrid__pedidos h3{
+    font-weight: normal;
+}
+.footergrid__pedidos p{
+    font-weight: bold;
+}
+.footergrid__pedidos i{
+    margin-right: 1rem;
+}
+.footergrid__empresa h3{
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.footergrid__empresa a{
+    color: white;
+}
+.footergrid__empresa li{
+    color: white;
+}
+.footergrid__despachos h3{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.footergrid__despachos{
+    color: white;
+}
+/****************PAGEREGISTRATE****************//****************PAGEREGISTRATE****************//****************PAGEREGISTRATE****************//****************PAGEREGISTRATE****************/
+/****************PAGEREGISTRATE****************//****************PAGEREGISTRATE****************//****************PAGEREGISTRATE****************//****************PAGEREGISTRATE****************/
+/****************PAGEREGISTRATE****************//****************PAGEREGISTRATE****************//****************PAGEREGISTRATE****************//****************PAGEREGISTRATE****************/
+.formregistratediv{
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    /* margin-left: 50rem; */
+    text-align: center;
+    background-image: url(../Media/fondo-agua.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60rem;
+}
+
+.formregistratediv__circulo img{
+    width: 60rem;
+    position: absolute;
+    right: 30rem;
+}
+.formregistratediv__form{
+    position: relative;
+    width: 25rem;
+    top: 10rem;
+    left: 46rem;
+    background-color: #0072B9;
+    color: white;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 3rem;
+    -webkit-box-shadow: 10px 10px 19px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 19px 10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 19px 10px rgba(0,0,0,0.75);
+}
+.formregistratediv__form h1{
+    color: white;
+    text-align: center;
+}
+.formregistratediv__form input{
+    background-color: #005184;
+    color: white;
+    height: 2rem;
+    padding: 5px 1px 5px 5px;
+    border-radius: 3px;
+    border: 0;
+    /* outline: none; */
+    box-sizing: border-box;
+}
+.formregistratediv__form-inputsfinal input{
+    background-color: #00DADA;
+    width: 13.1rem;
+    height: 2.7rem;
+    margin-top: 1rem;
+    border-radius: 5rem;
+}
+.formregistratediv__form-inputsfinal input:hover{
+    background-color: #05b4b4;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.formregistratediv__form div{
+    margin-top: 12px;
+}
+/****************PAGELOGIN****************//****************PAGELOGIN****************//****************PAGELOGIN****************//****************PAGELOGIN****************/
+/****************PAGELOGIN****************//****************PAGELOGIN****************//****************PAGELOGIN****************//****************PAGELOGIN****************/
+/****************PAGELOGIN****************//****************PAGELOGIN****************//****************PAGELOGIN****************//****************PAGELOGIN****************/
+.formlogin{
+    margin-top: 1rem;
+    margin-bottom: 50rem;
+    /* margin-left: 50rem; */
+    text-align: center;
+    background-image: url(../Media/fondo-agua.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60rem;
+}
+
+.formlogin__circulo img{
+    width: 60rem;
+    position: absolute;
+    right: 30rem;
+}
+.formlogin__form{
+    position: relative;
+    width: 25rem;
+    top: 15rem;
+    left: 46rem;
+    background-color: #0072B9;
+    color: white;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 3rem;
+    -webkit-box-shadow: 10px 10px 19px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 19px 10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 19px 10px rgba(0,0,0,0.75);
+}
+.formlogin__form div{
+    margin-top: 1rem;
+}
+.formlogin__form h1{
+    color: white;
+    text-align: center;
+}
+.formlogin__form input{
+    background-color: #005184;
+    color: white;
+    height: 2rem;
+    padding: 5px 1px 5px 5px;
+    border-radius: 3px;
+    border: 0;
+    /* outline: none; */
+    box-sizing: border-box;
+}
+.formlogin__form-inputsfinal input{
+    background-color: #00DADA;
+    width: 13.1rem;
+    height: 2.7rem;
+    margin-top: 1rem;
+    border-radius: 5rem;
+}
+.formlogin__form-inputsfinal input:hover{
+    background-color: #05b4b4;
+    transition: 0.2s;
+    cursor: pointer;
+}
+/****************PAGEPORTAL****************//****************PAGEPORTAL****************//****************PAGEPORTAL****************//****************PAGEPORTAL****************/
+/****************PAGEPORTAL****************//****************PAGEPORTAL****************//****************PAGEPORTAL****************//****************PAGEPORTAL****************/
+/****************PAGEPORTAL****************//****************PAGEPORTAL****************//****************PAGEPORTAL****************//****************PAGEPORTAL****************/
+.portalexitoso{
+    background-color: #0072B9;
+    text-align: center;
+    margin-top: 20rem;
+    color: white;
+}
+.portalexitoso h2{
+    font-size: 4rem;
+}
+
+/****************PAGECONTACTANOS****************//****************PAGECONTACTANOS****************//****************PAGECONTACTANOS****************//****************PAGECONTACTANOS****************/
+/****************PAGECONTACTANOS****************//****************PAGECONTACTANOS****************//****************PAGECONTACTANOS****************//****************PAGECONTACTANOS****************/
+/****************PAGECONTACTANOS****************//****************PAGECONTACTANOS****************//****************PAGECONTACTANOS****************//****************PAGECONTACTANOS****************/
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.contenedor div{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+}
+.contenedor label{
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-weight: bold;
+}
+.pageformularioduda{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 4rem;
+}
+.pageformulariogrid{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+}
+.pageformulariogrid__derecha{
+    margin-top: 5rem;
+    margin-right: 5rem;
+}
+.pageformulariogrid__derecha-texto h2{
+    border-bottom: solid 3px #0072B9;
+    width: 34rem;
+    margin-left: 10rem;
+    font-size: 2rem;
+
+}
+.pageformulariogrid__derecha p{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.pageformulariogrid__derecha img{
+    width: 26rem;
+    border-radius: 5px;
+    margin-left: 13rem;
+    margin-top: 3rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+.pageformularioimg{
+    /* background-color: red;  */
+    position: absolute;
+    left: 30rem;
+}
+.pageformularioimg img{
+    position: relative;
+    top: 5rem;
+    left: 20rem;
+    width: 65rem;
+    
+}
+.formularioinputs{
+    /* background-color: red; */
+    padding: 5px 1px 5px 5px;
+    border-radius: 3px;
+}
+.pageformulario{
+    background-color: #d0e3fd;
+    text-align: center;
+    border-radius: 5rem;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+}
+.contenedor-mensaje textarea{
+    width: 28rem;
+    height: 5rem;
+    resize: none;
+}
+.botonesform{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    height: -5rem;
+}
+
+.botonesform button{
+    width: 9rem;
+}
+.boton1 input{
+    background-color: #00DADA;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+}
+.boton1 input:hover{
+    background-color: #00afaf;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.boton2 button{
+    background-color: red;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+}
+.boton2 button:hover{
+    background-color: rgb(196, 3, 3);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.pformulario{
+    color: white;
+    padding: 10px;
+    width: 37.2rem;
+    text-align: center;
+    background-color: red;
+}
+.opacidad{
+    opacity: 0.6;
+}
+.spiner{
+    position: relative;
+    top: 29rem;
+    right: 22rem;
+    display: flex;
+    justify-content: center;
+}
+.hidden{
+    visibility: hidden;
+}
+.mensajeexitoso{
+    background-color: rgb(26, 206, 65);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 37.2rem;
+    font-weight: bold;
+}
+/****************HEADERGLOBAL****************//****************HEADERGLOBAL****************//****************HEADERGLOBAL****************//****************HEADERGLOBAL****************/
+/****************HEADERGLOBAL****************//****************HEADERGLOBAL****************//****************HEADERGLOBAL****************//****************HEADERGLOBAL****************/
+/****************HEADERGLOBAL****************//****************HEADERGLOBAL****************//****************HEADERGLOBAL****************//****************HEADERGLOBAL****************/
+.headerglobal{
+    background-color: #0072B9;
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 7px solid#0072B9; */
+}
+/* .headerglobal__carrito{
+   font-size: 3rem;
+   background-color: red;
+   margin-bottom: 15rem;
+} */
+.headerglobal img{
+    width: 20rem;
+    margin-left: 5rem;
+    /* margin-top: 1rem; */
+}
+.headerglobal__enlaces{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    width: 50rem;
+    height: 2rem;
+    margin-top: 4rem;
+    margin-right: 5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.headerglobal__enlaces a{
+    color: white;
+}
+.headerglobal__enlaces a:hover{
+    color: rgb(180, 180, 180);
+    transition: 0.2s;
+}
+/*****************PAGEPRODUCTOS****************//*****************PAGEPRODUCTOS****************//*****************PAGEPRODUCTOS****************//*****************PAGEPRODUCTOS****************/
+/*****************PAGEPRODUCTOS****************//*****************PAGEPRODUCTOS****************//*****************PAGEPRODUCTOS****************//*****************PAGEPRODUCTOS****************/
+/*****************PAGEPRODUCTOS****************//*****************PAGEPRODUCTOS****************//*****************PAGEPRODUCTOS****************//*****************PAGEPRODUCTOS****************/
+.submenu {
+    position: relative;
+    bottom: 1rem;
+}
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+    top:100%;
+    z-index: 1;
+    background-color: #6487b4;
+    padding: 20px;
+    /* min-height: 400px;
+    min-width: 300px; */
+}
+.submenu:hover img{
+    width: 15rem;
+}
+.productosdivgrid{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* background-color: red; */
+    margin-top: 10rem;
+}
+.productos__div-item{
+    /* border: solid 1px blue; */
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.productos__div-item:hover{
+    background-color: #82c8f3;
+    transition: 0.2s;
+    border-radius: 5rem;
+}
+.productosdivgrid img{
+    width: 15rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.productos__div-info{
+    /* background-color: coral; */
+    text-align: center;
+    margin-top: -4rem;
+}
+.productos__div-info h3{
+    font-size: 2rem;
+}
+.productos__div-info p{
+    font-size: 2rem;
+}
+.productos__div-info a{
+    font-size: 1.7rem;
+    background-color: #0072b9;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+.productos__div-info a:hover{
+    background-color: #06456d;
+    transition: 0.2s;
+}
+/****************PAGENOSOTROS****************//****************PAGENOSOTROS****************//****************PAGENOSOTROS****************//****************PAGENOSOTROS****************/
+/****************PAGENOSOTROS****************//****************PAGENOSOTROS****************//****************PAGENOSOTROS****************//****************PAGENOSOTROS****************/
+/****************PAGENOSOTROS****************//****************PAGENOSOTROS****************//****************PAGENOSOTROS****************//****************PAGENOSOTROS****************/
+.nosotroslogo{
+    margin-top: 4rem;
+}
+.nosotroslogo img:nth-child(1){
+    width: 30rem;
+    margin-left: 45rem;
+    margin-top: 15rem;
+}
+.nosotroslogo img:nth-child(2){
+    width: 52rem;
+    position: absolute;
+    left: 33.5rem;
+    top: 13rem;
+}
+.nosotrosgrid{
+    margin-top: 20rem;
+    /* margin-bottom: 30rem; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.nosotrosgrid__izquierda{
+    margin-top: 5rem;
+}
+.nosotrosgrid__izquierda img{
+    width: 60rem; 
+    height: 100%;
+}
+.nosotrosgrid__derecha{
+    background-color: #0072B9;
+    margin-top: 5rem;
+    color: white;
+    padding-left: 5rem;
+    
+}
+.nosotrosgrid__derecha h3{
+    border-bottom: solid 4px white;
+    width: 7rem;
+    margin-left: 5px;
+    margin-top: 5rem;
+}
+.nosotrosgrid__derecha h2{
+    font-size: 35px;
+}
+.nosotrosgrid__derecha p{
+    text-align: left;
+    font-size: 22px;
+}
+.nosotrosgrid__derecha a{
+    border: solid 3px white;
+    color: white;
+    position: relative;
+    left: 20rem;
+    top: 6rem;
+    padding: 1rem 1rem 1rem 1rem ;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.nosotrosgrid__derecha a:hover{
+    color: blue;
+    border: solid 3px;
+    background-color: white;
+    transition: 0.2s;
+}
+.nosotrosvalores{
+    text-align: center;
+}
+.nosotrosvalores h2{
+    font-size: 3.6rem;
+}
+.nosotrosvalores h3{
+    color: #0072B9;
+    font-size: 2rem;
+}
+.nosotrosvalores p{
+    width: 70rem;
+    font-size: 1.2rem;
+    margin-left: 25rem;
+}
+.nosotrosvalores__img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin-bottom: 7rem;
+}
+.nosotrosvalores__img img{
+    width: 45rem;
+    border-radius: 5px;
+}
+.nosotrosvalores__img img:nth-child(1){
+    margin-left: 15rem;
+}
+.nosotrosvalores__img img:nth-child(3){
+    position: relative;
+    left: 40rem;
+}
+/*************************************************/

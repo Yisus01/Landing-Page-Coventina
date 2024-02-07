@@ -1,0 +1,474 @@
+body{
+    font-family: "Century Gothic", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: #0072b9;
+}
+.headerindex{
+    background-image: url(../media/Coventina\ Rio\ Backer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60rem;
+}
+/* @media only screen and (min-width: 600px) {
+    .headerindex{
+        background-image: url(../Media/circle-water.png);
+    }
+} */
+.headerindex__div{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.headerindex__div-siguenos{
+    background-color: #0072b9;
+    display: flex;
+    color: white;
+    width: 13.67rem;
+    height: 3rem;
+    padding-left: 3rem;
+    clip-path: polygon(0 0, 100% 0, 89% 100%, 0% 100%);
+}
+.headerindex__div-siguenos i{
+    margin-top: 1rem;
+    display: flex;
+    margin-left: 1rem;
+}
+.headerindex__div-siguenos a{
+    color: white;
+}
+.headerindex__div-siguenos i:hover{
+    color: rgb(70, 255, 246);
+    cursor: pointer;
+}
+.headerindex__div-login{
+    margin-right: 3rem;
+    margin-top: 1px;
+}
+.headerindex__div-login a{
+    color: white;
+    background-color: #0072b9;
+    padding: 10px 20px 10px 20px;
+    border-radius: 1rem;
+}
+.headerindex__div-login-a{
+    margin-top: 10px;
+}
+.headerindex__div-login a:hover{
+    background-color:#0a5786;
+    transition: 0.2s;
+}
+.headerindex__div-login i{
+    margin-left: 3rem;
+    color: white;
+    background-color: #0072b9;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.headerindex__logo{
+    /* background-color: red; */
+    border: 5px solid #0072b9;
+    border-radius: 3rem;
+    margin-top: 5rem;
+    width: 90rem;
+    margin-left: 15rem;
+
+}
+.headerindex__logo img{
+    width: 90rem;
+}
+
+.aguafavoritaindex{
+    background-image: url(../media/fondo-agua.jpeg);
+    z-index: -1;
+    position: absolute;
+    width: 90rem;
+    height: 90rem;
+}
+/*******************COVENTINADIOSA*******************//*******************COVENTINADIOSA*******************/
+/*******************COVENTINADIOSA*******************//*******************COVENTINADIOSA*******************/
+/*******************COVENTINADIOSA*******************//*******************COVENTINADIOSA*******************/
+.coventinadiosa{
+    display: flex;
+    justify-content: center;
+    /* width: 65rem; */
+}
+.coventinadiosa h2{
+    font-size: 2.7rem;
+}
+.coventinadiosa span{
+    color: #0072b9;
+    font-size: 2.8.9rem;
+    font-weight: bold;
+}
+.coventinadiosa :not(span){
+    color: #0072b9;
+    font-weight: 1;
+}
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+.purificadaindex{
+    background-image: url(../media/fondo-agua.jpeg);
+    height: 50rem;
+    width: 100%;
+    
+}
+.purificadaindex svg{
+    margin-top: -5.7rem;
+    height: 26.43rem;
+}
+.purificadaindex h2{
+    margin-top: 28rem;
+    margin-left: 20rem;
+    position: absolute;
+    font-size: 3.6rem;
+    color: #052caa;
+    text-align: center;
+}
+.purificadaindex img{
+    margin-left: 57rem;
+    margin-top: 21rem;
+    width: 35rem;
+}
+/*******************AGUAPURIFICADAINDEX*******************//*******************AGUAPURIFICADAINDEX*******************/
+/*******************AGUAPURIFICADAINDEX*******************//*******************AGUAPURIFICADAINDEX*******************/
+/*******************AGUAPURIFICADAINDEX*******************//*******************AGUAPURIFICADAINDEX*******************/
+.aguapurificadaindex{
+    /* background-color: #39a2cf; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 5rem;
+    margin-top: 33rem;
+    margin-left: 15rem;
+    font-size: 1rem;
+}
+.aguapurificadaindex__img{
+    /* background-color: greenyellow; */
+    margin-left: 27rem;
+}
+.aguapurificadaindex__img-1{
+    width: 24rem;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 1.5rem;
+}
+.aguapurificadaindex__img-2{
+    width: 25rem;
+}
+.aguapurificadaindex__img-p1{
+    background-color: #0072b9;
+    position: absolute;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 50%;
+    text-align: center;
+    text-align: center;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+.aguapurificadaindex__img-p2{
+    background-color: #0072b9;
+    position: absolute;
+    margin-left: 15rem;
+    margin-top: -10rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 50%;
+    text-align: center;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    font-size: 15px;
+}
+.aguapurificadaindex__img-p1 p{
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+}
+.aguapurificadaindex__img-p2 p{
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+}
+.aguapurificadaindex__derecha{
+    /* background-color: red; */
+    color: #0072b9;
+}
+.aguapurificadaindex__derecha h3{
+    /* background-color: #b6e3f6; */
+    font-weight: bold;
+}
+.aguapurificadaindex__sed{
+    /* background-color: gold; */
+    margin-left: 59.5rem;
+    margin-top: 15rem;
+    position: absolute;
+    color: #0072b9;
+} 
+.aguapurificadaindex__sed h3{
+    /* background-color: #b6e3f6; */
+    font-weight: bold;
+}
+.aguapurificadaindex__sed-enlace{
+    background-color: #0072b9;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+}
+.aguapurificadaindex__sed-enlace a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.aguapurificadaindex__sed-enlace:hover{
+    background-color:#0a5786;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+/*******************CARUSELINDEX*******************//*******************CARUSELINDEX*******************/
+/*******************CARUSELINDEX*******************//*******************CARUSELINDEX*******************/
+/*******************CARUSELINDEX*******************//*******************CARUSELINDEX*******************/
+.carouselindex{
+    margin-top: 13rem;
+}
+.carouselindex__productos-item{
+    border: 1px solid #0072b9;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 2rem;
+}
+.carouselindex img{
+    width: 17rem;
+}
+.carouselindex h3{
+    color: #0072b9;
+    margin-top: -2rem;
+    font-size: 25px;
+}
+.carouselindex p{
+    color: red;
+    font-weight: bold;
+    margin-top: -1rem;
+    font-size: 25px;
+}
+
+.carouselindex__añadir a{
+    color: white;
+    background-color: #0072b9;
+    padding: 10px 20px 10px 20px;
+    border-radius: 3rem;
+}
+.carouselindex__anterior{
+    position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	/* top: calc(50% - 35px); */
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	/* background: none; */
+	color: #fff;
+	/* opacity: 20%; */
+    background-color: red;
+    /* margin-left: 98%; */
+    top: 264rem;
+    left: 1rem;
+}
+.carouselindex__siguiente{
+    position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	/* top: calc(50% - 35px); */
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	/* background: none; */
+	color: #fff;
+	/* opacity: 20%; */
+    background-color: red;
+    margin-left: 98%;
+    margin-top: -14rem;
+}
+
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+.purificadaindex{
+    background-image: url(../media/fondo-agua.jpeg);
+    height: 50rem;
+    width: 100%;
+    
+}
+.purificadaindex svg{
+    margin-top: -5.7rem;
+    height: 26.43rem;
+}
+.purificadaindex h2{
+    margin-top: 28rem;
+    margin-left: 20rem;
+    position: absolute;
+    font-size: 3.6rem;
+    color: #052caa;
+    text-align: center;
+}
+.purificadaindex img{
+    margin-left: 57rem;
+    margin-top: 21rem;
+    width: 35rem;
+}
+/*******************notequedesagua*******************//*******************notequedesagua*******************/
+/*******************notequedesagua*******************//*******************notequedesagua*******************/
+/*******************notequedesagua*******************//*******************notequedesagua*******************/
+.notequedesagua{
+    background-image: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(186,186,186,0) 38%, rgba(0,212,255,0) 100%), url(https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 30rem;
+    margin-top: 7rem;
+}
+.notequedesagua__h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 6.4rem;
+    font-size: 3rem;
+
+}
+
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+/*******************PLANESINDEX*******************//*******************PLANESINDEX*******************/
+.planesindex__titulo{
+    color: #0072b9;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    font-size: 2.5rem;
+}
+.planesindex__grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 3rem;
+    margin-left: 22rem;
+    gap: 5rem 0rem;
+    margin-bottom: 5rem;
+}
+.planesindex__grid-item{
+    /* background-color: red; */
+    border: 1px solid #0072b9;
+    width: 30rem;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    /* background-color: red; */
+}
+.planesindex__grid-item img{
+    width: 13rem;
+}
+.planesindex__grid-plan{
+    background-color: #0072b9;
+    text-align: center;
+    margin-top: -14.3rem;
+    margin-left: 23.9rem;
+    width: 6rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    clip-path: polygon(20% 0, 100% 0%, 100% 100%, 20% 100%, 0% 50%);
+}
+.planesindex__grid-plan span{
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+}
+.planesindex__grid-info-unidad{
+    /* background-color: aqua; */
+    margin-left: 12rem;
+    margin-top: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+    color:#0072b9;
+    font-weight: bold;
+}
+.planesindex__grid-info-titulo{
+    /* background-color: aqua; */
+    margin-left: 17rem;
+    margin-top: -7rem;
+    font-size: 1.5rem;
+    width: 11rem;
+    color:#0072b9;
+
+}
+.planesindex__grid-info-precio{
+    /* background-color: aqua; */
+    margin-left: 17rem;
+    margin-top: 0rem;
+    width: 4.3rem;
+    font-size: 1.5rem;
+    color: red;
+    font-weight: bold;
+}
+.planesindex__grid-info-añadir{
+    margin-left: 17rem;
+    margin-top: 0rem;
+    width: 14rem;
+    font-size: 1.5rem;
+}
+.planesindex__grid-info-añadir a{
+    color: white;
+    background-color: #0072b9;
+    padding: 3px 5px 3px 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+/*******************WEBPAYDIV*******************//*******************WEBPAYDIV*******************/
+/*******************WEBPAYDIV*******************//*******************WEBPAYDIV*******************/
+/*******************WEBPAYDIV*******************//*******************WEBPAYDIV*******************/
+.webpaydiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #b6e3f6;
+    text-align: center;
+    /* margin-left: 30rem; */
+    padding: 2rem 10rem 2rem 10rem;
+    gap: 5rem;
+    /* margin-left: 6rem; */
+}
+.webpaydiv img{
+    width: 20rem;
+}
+.webpaydiv__texto{
+    color: #0072b9;
+    text-align: left;
+    margin-left: 5rem;
+}
+.webpaydiv__logo{
+    border-right: 3px dashed white;
+    /* background-color: green; */
+    width: 50rem;
+}

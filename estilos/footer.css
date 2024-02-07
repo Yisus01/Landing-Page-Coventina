@@ -1,0 +1,73 @@
+body{
+    font-family: "Century Gothic", sans-serif;
+}
+footer{
+    background-color: #0072b9;
+}
+.divfooter{
+    display: flex;
+    justify-content: space-between;
+}
+.divfooter__logo{
+    margin-left: 45rem;
+}
+.divfooter img{
+    width: 30rem;
+}
+.divfooter__siguenos{
+    display: flex;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    color: white;
+}
+.divfooter__siguenos i{
+    /* margin-right: 3rem; */
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    width: 2rem;
+}
+.footergrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 5rem;
+    margin-left: 15rem;
+}
+.footergrid__pedidos{
+    background-color: #b6e3f6;
+    width: 15rem;
+    height: 9rem;
+    text-align: center;
+    margin-left: 5rem;
+    padding: 1px 10px 1px 10px;
+    border-radius: 30px;
+    color: #0072b9;
+    margin-top: 2rem;
+}
+.footergrid__pedidos h3{
+    font-weight: normal;
+}
+.footergrid__pedidos p{
+    font-weight: bold;
+}
+.footergrid__pedidos i{
+    margin-right: 1rem;
+}
+.footergrid__empresa h3{
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.footergrid__empresa a{
+    color: white;
+}
+.footergrid__empresa li{
+    color: white;
+}
+.footergrid__despachos h3{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.footergrid__despachos{
+    color: white;
+}
